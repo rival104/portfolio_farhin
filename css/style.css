@@ -1787,3 +1787,8 @@ footer .copyright a:hover {
 footer.darkFooter .copyright a:hover {
   color: #000;
 }
+/* Other */
+
+.pt-page a {
+  border: none;
+}
