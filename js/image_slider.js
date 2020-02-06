@@ -34,7 +34,7 @@ jQuery(function($){
 		thumbnail_navigation    :   0,			// Thumbnail navigation
 		slides 					:  	[			// Slideshow Images
 												{image : './img/slider/slider-0.jpg', title : 'Laptop Workking'},
-												{image : './img/slider/slider-4.gif', title : 'Flower Fieled'},
+												{image : './img/slider/slider-4.jpg', title : 'Flower Fieled'},
 												{image : './img/slider/slider-1.jpg', title : 'Working Desk'}
 									],
 										
