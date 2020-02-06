@@ -33,9 +33,9 @@ jQuery(function($){
 		thumb_links				:	1,			// Individual thumb links for each slide
 		thumbnail_navigation    :   0,			// Thumbnail navigation
 		slides 					:  	[			// Slideshow Images
-												{image : './img/slider/slider-1.jpg', title : 'Laptop Workking'},
-												{image : './img/slider/slider-2.jpg', title : 'Flower Fieled'},
-												{image : './img/slider/slider-3.jpg', title : 'Working Desk'}
+												{image : './img/slider/slider-0.jpg', title : 'Laptop Workking'},
+												{image : './img/slider/slider-4.gif', title : 'Flower Fieled'},
+												{image : './img/slider/slider-1.jpg', title : 'Working Desk'}
 									],
 										
 		// Theme Options			   

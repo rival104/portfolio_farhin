@@ -1,0 +1,94 @@
+.aboutme,
+.work,
+.single-work,
+.blog,
+.navTop .aboutmeNav,
+.navTop .workNav,
+.navTop .blogNav {
+  background: #000000;
+  color: #cccccc;
+}
+
+/******* aboutme page **********/
+.pt-page.aboutme a {
+   color: #cccccc;
+}
+
+.pt-page section.section-author-image-2 a:hover,
+.pt-page section.skills .resume a:hover,
+.pt-page section.services a:hover{
+  color: #000000;
+  background: #cccccc;
+  border-color: #cccccc;
+}
+
+.aboutme ul li label,
+.aboutme .bar-graph .main-layer {
+  background-color: #5d5d5d;
+}
+
+.aboutme .bar-graph .general_bg
+ {
+  background: #ddd;
+}
+
+.experience a:hover {
+  color: white;
+}
+
+.testimonials {
+  color: #000;
+}
+
+.testimonials-over-image {
+  background: #fff;
+}
+
+@media (max-width: 992px) {
+  .aboutme .author-image-2:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.75;
+    background: #000000;
+    ;
+  }
+}
+
+/***** footer ********/
+
+footer.darkFooter,
+footer.darkFooter a {
+  color: #fff;
+}
+
+/******* blog **********/
+.blog .post-left .post-date {
+  background: #cccccc;
+}
+
+.pt-page.blog a {
+  color: #cccccc;
+}
+
+.pt-page.blog a:hover {
+  color: #000000;
+  background: #cccccc;
+  border-color: #cccccc;
+}
+
+/***** work *******/
+#filters button {
+  color: #cccccc;
+}
+
+#filters button:hover {
+  color: #000000;
+  background: #cccccc;
+  border-color: #cccccc;
+}
+

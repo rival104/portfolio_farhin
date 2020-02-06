@@ -341,7 +341,7 @@ h5 {
 .loader-logo {
   top: 50%;
   left: 52%;
-  margin-left: -30px;
+  margin-left: -26px;
   margin-top: -35px;
   color: #fff;
   font-family: 'Montserrat', sans-serif;
@@ -653,6 +653,7 @@ h5 {
 .navTop .aboutmeNav,
 .navTop .workNav,
 .navTop .blogNav {
+  /* background: #fff; */
   background: #fff;
 }
 
@@ -681,6 +682,17 @@ h5 {
 .homepage .messages {
   text-align: center;
   color: #fff;
+}
+
+.buffer {
+  height: 20rem;
+}
+
+.click-finger a,
+.click-finger a:hover {
+  text-decoration: none;
+  border: none;
+  background: none;
 }
 
 /*------------------------------------------------------------------
@@ -721,7 +733,7 @@ h5 {
 
 .aboutme .author-image-2 {
   padding-bottom: 100px;
-  background: url('../img/profile-pic.jpg') top left no-repeat;
+  background: url('../img/placeholder-profile.png') top left no-repeat;
   background-size: 55%;
   position: relative;
 }
@@ -749,7 +761,7 @@ h5 {
 }
 
 .aboutme .skills {
-  background: url('../img/skills-background.jpg'), rgba(0, 0, 0, 0.5);
+  background: url('../img/dark_skills_background.jpg');
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -1511,7 +1523,7 @@ h5 {
 input.form-control,
 textarea.form-control {
   background: none;
-  background-color: none;
+  /* background-color: none; */
   box-shadow: none;
   border: 0px;
   border-bottom: 1px solid rgba(256, 256, 256, 0.25);
