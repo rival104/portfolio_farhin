@@ -1791,3 +1791,7 @@ footer.darkFooter .copyright a:hover {
 .pt-page a {
   border: none;
 }
+
+#work-content .tags li {
+  color: black;
+}
